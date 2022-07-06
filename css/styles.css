@@ -1,0 +1,139 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+h1,h2,h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.title-bgimage{
+  background-size: cover;
+}
+
+.big-heading{
+  color: white;
+  font-size: 2em;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 0% 0% 8% 10%;
+}
+
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 50%;
+}
+
+/* Download Butoons */
+
+.download-btn-image{
+  width: 5%;
+}
+
+/* Title Image */
+.title-image {
+  width: 80%;
+}
+
+/* Features */
+#features {
+  padding: 8% 8%;
+  margin: auto;
+  text-align: center;
+  color: #8f8f8f;
+}
+#creativeway {
+  padding: 5% 0%;
+  margin: auto;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+#sourcecode{
+  
+  padding: 5% 0%;
+  margin: auto;
+  text-align: center;
+  color: #8f8f8f;
+}
+.icon {
+  color: white;
+  padding: 3% 1%;
+  
+}
+
+.icon:hover {
+  color: black;
+}
+
+/* Technology */
+.technology-bgimage{
+  background-size:cover;
+  background-color:black;
+}
+.technology-heading{
+  margin: 10px;
+  padding :10px;
+  text-align: center;
+}
+.tech-image{
+  padding: 3% 10%;
+}
+
+/* deployment */
+.deployment{
+  padding :50px;
+}
+
+
+/* cta */
+
+.source-code-image{
+  width: 80%;
+  margin: 2% 10% ;
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+  padding: 8% 25% 5% 25%;
+  text-align: center;
+}
+.cprt{
+  padding-top: 3%;
+}
+
+/* For mobile version some updated code using advance css - @media query */
+
+@media screen and (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .download-button {
+    margin: 05% 3%;
+    padding:2% 3%;
+  }
+
+}
